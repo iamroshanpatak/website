@@ -1,3 +1,8 @@
+*{
+ margin: 0;
+ padding: 0;
+
+}
 h1,h2,h3,h4,h5,p,a,button{
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,10 +12,43 @@ h1,h2,h3,h4,h5,p,a,button{
 img{
     max-width: 100%;
 }
-.top-bar{
+
     
-}
+
 ul li{
     display:inline-block;
     padding: 20px;
+}
+.logo {
+    height: 20px;
+    width: 90px;
+    margin: 10px 40px;
+
+}
+
+ul li {
+    margin-top: 20px;
+display:flex;
+padding: 20px;
+border: black 2px solid;
+background: cyan;
+border-radius: 45px;
+
+}
+nav div{
+    float: left;
+
+}
+
+.menu{
+margin-left: 300px;
+}
+nav{
+    background-color:black;
+    height: 110px;
+    width: 100%;
+    
+}
+.menu ul{
+    display: flex;
 }
