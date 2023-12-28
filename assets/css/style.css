@@ -15,7 +15,7 @@ img{
 
     
 
-ul li{
+.menu ul li{
     display:inline-block;
     padding: 20px;
 }
@@ -26,10 +26,10 @@ ul li{
 
 }
 
-ul li {
+.menu ul li {
     margin-top: 20px;
 display:flex;
-padding: 20px;
+
 border: black 2px solid;
 background: cyan;
 border-radius: 45px;
@@ -47,8 +47,21 @@ nav{
     background-color:black;
     height: 110px;
     width: 100%;
+
     
 }
 .menu ul{
     display: flex;
 }
+.social_links{
+    display:flex ;
+    list-style: none;
+}
+
+.social_links li i{
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+  
